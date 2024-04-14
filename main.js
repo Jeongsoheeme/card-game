@@ -29,7 +29,7 @@ function clickedCard() {
             let cardId = this.id;
             this.innerHTML = `<img src="imgs/${cardId}.jpg">`;
 
-            if (firstCard) {
+            if (!firstCard) {
                 firstCard = this;
             } else {
                 secondCard = this;
@@ -59,5 +59,6 @@ function clickedCard() {
 }
 
 timeEvent();
+
 clickedCard();
 
