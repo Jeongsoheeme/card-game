@@ -1,0 +1,19 @@
+.content-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#cardList {
+    list-style: none;
+    display: flex;
+    width:400px;
+    height: 400px;
+    flex-wrap: wrap;
+}
+#cardList li {
+    width: 100px;
+    height: 100px;
+}
+#cardList li img {
+    width: 100%;
+}
